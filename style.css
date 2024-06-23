@@ -1,0 +1,341 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial, Helvetica, sans-serif; 
+    /* background-color: #52aa8a; */
+} 
+
+
+.dropdown {
+    display:inline-block;
+    position: relative;
+    background-color: #3e8e41;
+}
+.navbar{
+    background-color: #4CAF50; 
+    width:206vh; 
+    display: flex;
+} 
+h2{
+    justify-content: center; 
+    padding-left: 35%; 
+    margin-top: 10px;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; 
+    padding:10px; 
+    margin-top: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+} 
+.intro{
+    background-color: #83C3AC;
+    width:206vh;
+    height:84vh; 
+    display:flex;
+} 
+.intropara{
+    padding-left: 300px;
+    padding-right:300px; 
+    display:inline-block;  
+    padding-top: 100px;
+}
+.introabout{
+    background-color: #83C3AC;
+    width:206vh;
+    height:70vh; 
+    display:flex;
+}
+h3{
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    font-size: 25px;  
+} 
+h4{
+    padding-top: 8px;
+    padding-bottom: 20px; 
+} 
+h5{
+    padding-top: 8px;
+    padding-bottom: 20px; 
+    font-size: 15px;
+} 
+.profile{
+    padding-left: 30px;
+    padding-top: 130px;
+
+} 
+.linkden{ 
+    margin-top: 10px;
+    margin-right:10px;
+    font-size: 35px; 
+    border-radius: 10px; 
+}  
+.linkden a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.github a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+
+.github{
+    margin-left:10px;
+    font-size: 35px; 
+    border-radius: 10px; 
+} 
+.readmore{
+    margin-top: 30px;
+    margin-right:10px;
+    font-size: 20px;  
+    padding: 5px 8px 5px 8px; 
+    border-radius: 5px; 
+    background-color: #388659; 
+}  
+.readmore a{
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.contact{
+    margin-top: 30px;
+    margin-right:10px; 
+    margin-left: 10px;
+    font-size: 20px;  
+    padding: 5px 8px 5px 8px; 
+    border-radius: 5px; 
+    background-color: #388659;
+} 
+.contact a{
+    color: black;
+    text-decoration: none;
+    display: block;
+} 
+.about{
+    width:203vh;
+    background-color: #4CAF50; 
+    padding: 10px 10px 10px 10px; 
+    
+}
+.about h1{
+    margin-left: 200px;
+}
+.aboutpara{
+    padding-left: 300px;
+    padding-right:300px; 
+    /* display:inline-block;   */
+    padding-top: 100px;
+} 
+.aboutpara h6{
+    font-size: 18px; 
+    margin-bottom: 10px; 
+    margin-top: 10px;
+} 
+.education{
+    background-color: #83C3AC;
+    width:1200px;
+    margin: 90px 120px 90px 170px;
+}
+.upcoming{
+    padding-top: 20px; 
+    padding-bottom: 120px;
+}  
+
+.events {
+    display:inline-flex;
+    justify-content: center;
+    align-items: center; 
+    margin-inline:1.5rem;
+    padding-block: 5rem; 
+    width:350px;
+    height:300px;
+    background-color: powderblue; 
+    margin-left: 30px; 
+    margin-right: 30px; 
+    position:relative;
+    overflow: hidden; 
+    border-radius: 1.5rem;
+    margin: 60px 30px 60px 30px;
+} 
+.event_container {
+    /* display:flex; */
+    padding-right:40px; 
+    
+    /* row-gap: 3.5rem; */
+}  
+#upcoming1{ 
+    margin-left: 100px; 
+    margin-right: 70px;
+    background-image: url('rockpaperscissor.PNG'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire card */
+    background-position: center; /* Center the background image */
+    border-radius: 1.5rem;
+}
+
+#upcoming2{ 
+    margin-left: 30px; 
+    margin-right: 70px;
+    background-image: url('hangman.PNG'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire card */
+    background-position: center; /* Center the background image */
+    border-radius: 1.5rem; 
+    border:2px solid black; 
+}
+
+#upcoming3{
+    background-image: url('upcoming3.PNG'); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire card */
+    background-position: center; /* Center the background image */
+    border-radius: 1.5rem;
+}
+/* .event_article{
+    position: relative; 
+    overflow:hidden; 
+}  */
+
+
+.card_data{
+    width:280px;
+    background-color: #fff;
+    padding:1.5rem 2rem;
+    box-shadow:0 8px 24px hsla(0,0%,0%, .15); 
+    border-radius: 1rem;
+    position:absolute; 
+    bottom:0;
+    left:50%;
+    /* right:0; */
+    transform:translateX(-50%);
+    margin-inline: cover; 
+    opacity:0; 
+    transition: opacity 0.3s;
+}
+.card_description{
+    display:block;
+    font-size:black;
+    font-size: 20px;
+    margin-bottom: .25rem;
+}  
+
+.card_title{
+    /* display: block;  */
+    /* text-align: left; */
+    font-size:18px;
+    font-weight: 300;
+    color:black; 
+    margin-left: 0%; 
+    padding-top: 10px;
+    /* margin-bottom: .75rem; */
+}  
+
+.event_button{
+    text-decoration: none;
+    font-size:20px;
+    font-weight: 500;
+    color:rgb(136, 136, 169);
+} 
+.event_button:hover{
+    text-decoration: underline;
+} 
+.events:hover .card_data{
+    /* animation : show-data 1s forwards; */
+    opacity:1;
+    /* transition:opacity .3s; */
+}  
+.relevantcourses{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;  
+    /* margin-left: 0px; 
+    margin-top: 0px;  */
+    background-color: #83C3AC;
+    width:206vh;
+    height:70vh; 
+    position: relative;
+} 
+#achievements{
+    background-color: #CDFFF9; 
+    margin-left: 10px; 
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    flex: 1;  
+    height:50vh; 
+    font-size: 30px; 
+    /* text-decoration: underline; */ 
+    border-radius: 10px;
+} 
+#certificates{
+    background-color: #CDFFF9; 
+    margin-left: 10px; 
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    flex: 1; 
+    height:50vh; 
+    font-size: 30px; 
+    border-radius: 10px;
+
+} 
+#courses{
+    background-color: #CDFFF9; 
+    margin-left: 10px; 
+    color: black;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    flex: 1; 
+    height:50vh; 
+    font-size: 30px;  
+    border-radius: 10px;
+
+}
+.content{
+    padding-top: 20px; 
+    text-decoration: none;
+}
+.certicontent{
+    padding-top: 40px; 
+    text-decoration: none; 
+} 
